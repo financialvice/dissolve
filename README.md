@@ -1,6 +1,8 @@
 # dissolve
 
-Dissolves all visible macOS windows into floating embers via a Metal shader.
+dissolves all visible macos windows into floating embers via a metal shader
 
-- Build & install: `swift build -c release && cp .build/release/Dissolve /usr/local/bin/dissolve`
-- Run: `dissolve`. First launch will prompt for Screen Recording permission — grant it in System Settings, then run again. Hidden apps return on next click/cmd-tab.
+- build: `swift build -c release && cp .build/release/Dissolve /usr/local/bin/dissolve`
+- run: `dissolve`
+- first launch will ask for screen recording permission, grant it in system settings then run again
+- hidden apps come back on next click or cmd-tab
